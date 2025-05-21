@@ -74,6 +74,9 @@ lint.select = [
 lint.ignore = [
     "E501",  # ignore line length
     "C402",  # ignore dict.fromkeys() usage
+    "ANN001", # ignore missing argument type annotations
+    "ANN201", # ignore missing return type annotations
+    "ANN202", # ignore missing return type annotations for private functions
 ]
 
 [tool.ruff.lint.isort]
